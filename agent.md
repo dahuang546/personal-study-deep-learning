@@ -28,3 +28,8 @@
 5. 推送到远程仓库 `git@github.com:dahuang546/personal-study-deep-learning.git`，分支为 `main`。
 
 仓库地址：https://github.com/dahuang546/personal-study-deep-learning
+
+## 注意事项
+- SSH 密钥保存在 `~/.ssh/id_ed25519.pub`（公钥）和 `~/.ssh/id_ed25519`（私钥），**私钥不要外泄**；
+- 推送到 GitHub 时请使用 SSH 地址：`git@github.com:dahuang546/personal-study-deep-learning.git`，不要搞成 HTTPS；
+- `3.ipynb` 当前被忽略，不推送到 GitHub，等里面有内容后再决定。
