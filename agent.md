@@ -15,6 +15,16 @@
 - GitHub 认证方式：SSH（已通过认证）
 
 ## 待办
-- [ ] 完成 GitHub 认证
-- [ ] 创建/指定 GitHub 仓库
-- [ ] 初始化 git 并推送文件
+- [x] 完成 GitHub 认证
+- [x] 创建/指定 GitHub 仓库
+- [x] 初始化 git 并推送文件
+
+## 对话总结（2026-08-07）
+本次完成了 GitHub 上传前的全部初始化工作：
+1. 在 `~/.ssh/` 下生成了 ed25519 SSH 密钥，并将公钥添加到 GitHub；
+2. 测试 SSH 连接成功，GitHub 用户名为 `dahuang546`；
+3. 本地执行了 `git init`，添加 `.gitignore` 排除 `.venv/`、`__pycache__/`、`.ipynb_checkpoints/`；
+4. 提交了 `2.ipynb`、`3.ipynb`、`agent.md`、`.gitignore`；
+5. 推送到远程仓库 `git@github.com:dahuang546/personal-study-deep-learning.git`，分支为 `main`。
+
+仓库地址：https://github.com/dahuang546/personal-study-deep-learning
