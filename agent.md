@@ -29,7 +29,16 @@
 
 仓库地址：https://github.com/dahuang546/personal-study-deep-learning
 
+## 对话总结（2026-08-08）
+1. 检查 `2.ipynb` 中 `Value` 类的反向传播实现：
+   - 确认 `+`、`*`、`tanh` 的局部 `_backward` 实现正确，`+=` 累加 grad 可处理节点复用；
+   - 指出缺少**自动反向传播**（缺少按拓扑排序调用所有 `_backward` 的通用方法），用户表示这是故意留的练习；
+   - 指出 `other` 暂不支持普通数字（如 `a * 2`），建议后续需要时再补转换逻辑。
+2. 创建 `log.md` 作为推送日志，记录每次推送到 GitHub 的内容简介。
+3. 将 `2.ipynb` 和 `log.md` 推送到远程仓库，提交为 `ad28e68`。
+
 ## 注意事项
 - SSH 密钥保存在 `~/.ssh/id_ed25519.pub`（公钥）和 `~/.ssh/id_ed25519`（私钥），**私钥不要外泄**；
 - 推送到 GitHub 时请使用 SSH 地址：`git@github.com:dahuang546/personal-study-deep-learning.git`，不要搞成 HTTPS；
 - `3.ipynb` 当前被忽略，不推送到 GitHub，等里面有内容后再决定。
+- 每次推送时记得在 `log.md` 追加一条内容简介记录。
