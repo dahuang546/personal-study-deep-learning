@@ -18,3 +18,9 @@
 - 包含 `exp`、`log`、`pow`、`div`、`neg`、`sub`、`relu` 等新增操作及对应的反向传播实现。
 - 奠定了后续构建更复杂神经网络的基础。
 - 现在调用输出节点的 `backward()` 即可自动完成全图梯度回传，无需再手动链式调用每个中间节点。
+
+## 2026-08-11
+
+- 文件重命名：`2.ipynb` → `micograd.ipynb`，`3.ipynb` → `neuron-net.ipynb`。
+- 同步更新 `.gitignore` 与 `agent.md` 中的文件说明。
+- `neuron-net.ipynb` 仍被忽略，暂不推送到 GitHub。

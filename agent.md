@@ -7,8 +7,8 @@
 - 用途：深度学习学习代码
 - 目录：`G:/学习课件/2026/8/nnlearn`
 - 文件：
-  - `2.ipynb`：自动微分 `Value` 类实现（micrograd 风格），含加/乘/tanh/反向传播与 graphviz 可视化
-  - `3.ipynb`：当前为空
+  - `micograd.ipynb`：自动微分 `Value` 类实现（micrograd 风格），含加/乘/tanh/反向传播与 graphviz 可视化
+  - `neuron-net.ipynb`：当前为空
 - GitHub 用户名：dahuang546
 - GitHub 仓库名：personal-study-deep-learning
 - GitHub 仓库地址：https://github.com/dahuang546/personal-study-deep-learning.git
