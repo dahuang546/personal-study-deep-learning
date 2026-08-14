@@ -24,3 +24,7 @@
 - 文件重命名：`2.ipynb` → `micograd.ipynb`，`3.ipynb` → `neuron-net.ipynb`。
 - 同步更新 `.gitignore` 与 `agent.md` 中的文件说明。
 - `neuron-net.ipynb` 仍被忽略，暂不推送到 GitHub。
+
+## 2026-08-14
+
+- 今天实现了一个完整的神经网络，看完教学之后，试着自己写了一个。
