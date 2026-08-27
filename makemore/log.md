@@ -1,5 +1,11 @@
 # makemore 学习日志
 
+## 2026-08-27
+- 完成 `bigram-CHINESE/bigram-CHINESE.ipynb`，实现基于 bigram 的中文名字生成模型；
+- 训练结果：loss 最多降到约 **5.4**，模型表达能力有限，生成效果一般；
+- 原因分析：bigram 仅依赖前一个字符，对中文这种表意文字和较长名字序列的建模能力明显不足；
+- 本次代码同步推送到 GitHub。
+
 ## 2026-08-26
 - 完成 `bigram-ENGLISH/bigram-ENGLISH.ipynb` 的大版本迭代，实现基于 bigram 的英文名字生成模型；
 - 本次 bigram 代码**完全独立手搓**，仅在遇到具体卡点时少量提问，没有依赖 AI 生成整体代码；
