@@ -1,7 +1,7 @@
 # makemore 学习日志
 
 ## 2026-08-26
-- 完成 `bigram.ipynb` 的大版本迭代，实现基于 bigram 的名字生成模型；
+- 完成 `bigram-ENGLISH/bigram-ENGLISH.ipynb` 的大版本迭代，实现基于 bigram 的英文名字生成模型；
 - 本次 bigram 代码**完全独立手搓**，仅在遇到具体卡点时少量提问，没有依赖 AI 生成整体代码；
 - 保留并整理了自己写的最大似然验证、采样生成、平滑处理等实验步骤。
 

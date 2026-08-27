@@ -8,4 +8,9 @@
 - 从最简单的 bigram 模型到更复杂的神经网络语言模型
 
 文件：
-- `makemore.ipynb`：学习代码与笔记
+- `bigram-ENGLISH/bigram-ENGLISH.ipynb`：英文 bigram 名字生成模型
+- `bigram-CHINESE/bigram-CHINESE.ipynb`：中文 bigram 名字生成模型（**新增**，待实现）
+- `names.txt`：英文名字训练数据
+- `log.md`：学习日志与提交记录
+
+> 说明：原 `bigram.ipynb`（英文版）已整理到 `bigram-ENGLISH/` 目录下，并新增 `bigram-CHINESE/` 用于存放中文版本。
