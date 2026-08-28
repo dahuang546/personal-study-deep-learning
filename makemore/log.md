@@ -1,5 +1,11 @@
 # makemore 学习日志
 
+## 2026-08-28
+- 整理项目环境信息：生成 `requirements.txt`，并在根目录 `README.md` 中补充 Python、PyTorch 等主要依赖版本；
+- 处理 `makemore/MLP/bengio03a.pdf`：将其加入 `.gitignore`，避免 PDF 上传到 GitHub；
+- 新建 `makemore/MLP/README.md`，说明该目录用于 MLP 名字生成模型，并记录参考论文 *A Neural Probabilistic Language Model*（Bengio et al., 2003）的相关信息；
+- 本次变更已推送到 GitHub。
+
 ## 2026-08-27
 - 完成 `bigram-CHINESE/bigram-CHINESE.ipynb`，实现基于 bigram 的中文名字生成模型；
 - 训练结果：loss 最多降到约 **5.4**，模型表达能力有限，生成效果一般；

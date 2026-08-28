@@ -2,3 +2,4 @@
 __pycache__/
 .ipynb_checkpoints/
 neuron-net.ipynb
+makemore/MLP/*.pdf
